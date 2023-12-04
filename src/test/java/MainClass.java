@@ -16,7 +16,7 @@ public class MainClass {
 
         driver.findElement(By.xpath("//button[@id='L2AGLb']")).click();
         driver.findElement(By.xpath("//div[@jscontroller='vZr2rb']")).click();
-        driver.findElement(By.xpath("//textarea[@jsname='yZiJbe']")).sendKeys("Привет");
+        driver.findElement(By.xpath("//textarea[@jsname='yZiJbe']")).sendKeys("Все ок");
         driver.findElement(By.xpath("//textarea[@jsname='yZiJbe']")).sendKeys(Keys.ENTER);
 
         try {
