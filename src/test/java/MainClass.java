@@ -11,12 +11,12 @@ public class MainClass {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-
+/*
         driver.get("https://www.google.com/");
 
         driver.findElement(By.xpath("//button[@id='L2AGLb']")).click();
         driver.findElement(By.xpath("//div[@jscontroller='vZr2rb']")).click();
-        driver.findElement(By.xpath("//textarea[@jsname='yZiJbe']")).sendKeys("Привет");
+        driver.findElement(By.xpath("//textarea[@jsname='yZiJbe']")).sendKeys("Все ок");
         driver.findElement(By.xpath("//textarea[@jsname='yZiJbe']")).sendKeys(Keys.ENTER);
 
         try {
@@ -27,8 +27,8 @@ public class MainClass {
 
 
         driver.quit();
+*/
 
-        /*
 
         driver.get("https://ru.wikipedia.org/wiki");
 
@@ -40,13 +40,13 @@ public class MainClass {
         driver.findElement(By.xpath("//ancestor::li[@id='ca-view']")).click();
 
         try {
-            sleep(3000);
+            sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
 
         driver.quit();
 
-         */
+
     }
 }
