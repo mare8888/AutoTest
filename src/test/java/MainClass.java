@@ -40,7 +40,7 @@ public class MainClass {
         driver.findElement(By.xpath("//ancestor::li[@id='ca-view']")).click();
 
         try {
-            sleep(3000);
+            sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
