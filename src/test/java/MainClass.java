@@ -11,7 +11,7 @@ public class MainClass {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-
+/*
         driver.get("https://www.google.com/");
 
         driver.findElement(By.xpath("//button[@id='L2AGLb']")).click();
@@ -27,8 +27,8 @@ public class MainClass {
 
 
         driver.quit();
+*/
 
-        /*
 
         driver.get("https://ru.wikipedia.org/wiki");
 
@@ -47,6 +47,6 @@ public class MainClass {
 
         driver.quit();
 
-         */
+
     }
 }
